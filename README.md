@@ -25,6 +25,7 @@ This exporter works for my use cases, but I can’t guarantee it will work perfe
   - [How to export custom data](#how-to-export-custom-data)
   - [How to export to JSON](#how-to-export-to-json)
   - [Export Settings](#export-settings)
+- [Contact](#contact)
 - [FAQ](#faq)
 - [Contributing](#contributing)
 - [License](#license)
@@ -272,6 +273,11 @@ You can change the filename in the filename field.
 
 ---
 
+## Contact
+Feel free to send me a message for any requests, bug report, questions etc.
+Discord: marc3l.
+email: marcel.rei@howest.student.be
+
 ## FAQ
 
 ### Am I allowed to use this for my Prog2 assignment?
@@ -304,7 +310,3 @@ Send me a message and I’ll look into it.
 Pull requests are welcome. For major changes, open an issue first.
 
 ---
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
