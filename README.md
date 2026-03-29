@@ -303,6 +303,10 @@ In general: use a JSON library to read the data.
 ### xyz is not working, what now?
 Send me a message and I’ll look into it.
 
+### Why did you not make it a Unity Package?
+Because you need the Newtonsoft Json package installed.
+And its easier for people who dont know unity to just open an existing project. 
+
 ---
 
 ## Contributing
