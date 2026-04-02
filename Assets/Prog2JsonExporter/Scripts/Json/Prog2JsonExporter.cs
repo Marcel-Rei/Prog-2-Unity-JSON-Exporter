@@ -14,9 +14,7 @@ namespace Prog2JsonExporter.Scripts.Json
 {
     public static class Prog2JsonExporter
     {
-
-        private static readonly string FilePath = "Prog2JsonExporter/JsonFiles";
-
+        
         private static Prog2ExportDataWrapper _prog2MultiSceneExportDataWrapper;
         private static Prog2SingleSceneExporter _prog2SingleSceneExportDataWrapper;
         private static List<Prog2ObjectArray> _prog2ObjectArray;
@@ -60,26 +58,45 @@ namespace Prog2JsonExporter.Scripts.Json
             
             if (settingsContext.ShouldPrintObjectInfoInConsole)
             {
-                Debug.Log($" class:{nameof(Prog2JsonExporter)} in: {nameof(ExportLevelDataToJson)} starting to write to file {FilePath}/{settingsContext.JsonFileName}");
+                Debug.Log($" class:{nameof(Prog2JsonExporter)} in: {nameof(ExportLevelDataToJson)} starting to write file");
             }
 
             string json = GetJsonString(settingsContext);
             
-            string directory = Path.Combine(Application.dataPath, FilePath);
+            string directory = Path.Combine(Application.dataPath, Prog2JsonExportSettingsContext.DefaultFolder);
                 
             if (!Directory.Exists(directory))
             {
                 Directory.CreateDirectory(directory);
             }
-                
-            string pathToSave = Path.Combine(directory, settingsContext.JsonFileName + ".json");
             
-            Debug.Log(pathToSave);
+            string pathToSave;
+
+            if (settingsContext.ShouldPrintObjectInfoInConsole)
+            {
+                Debug.Log($" class:{nameof(Prog2JsonExporter)} in: {nameof(ExportLevelDataToJson)} picking Folder to save to ");
+            }
+
+            if (settingsContext.HasCustomFilePath)
+            {
+                pathToSave = Path.Combine(settingsContext.FilePath, settingsContext.JsonFileName + ".json");
+            }
+            else
+            {
+                pathToSave = Path.Combine(directory, settingsContext.JsonFileName + ".json");
+            }
+            
+            if (settingsContext.ShouldPrintObjectInfoInConsole)
+            {
+                Debug.Log($" class:{nameof(Prog2JsonExporter)} in: {nameof(ExportLevelDataToJson)} saved file to: {pathToSave}");
+            }
             
             File.WriteAllText(pathToSave, json);
             
             AssetDatabase.Refresh();
             AssetDatabase.SaveAssets();
+            
+            Debug.Log("--- Export Done! ---");
         }
 
         private static string GetJsonString(Prog2JsonExportSettingsContext settingsContext)

@@ -22,7 +22,7 @@ namespace Prog2JsonExporter.Scripts.Settings
         public void ResetToDefault()
         {
             SettingsContext = new Prog2JsonExportSettingsContext();
-            Save(true);
+            SaveSettings();
         }
     }
 }

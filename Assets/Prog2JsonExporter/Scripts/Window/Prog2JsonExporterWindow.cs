@@ -23,6 +23,7 @@ namespace Prog2JsonExporter.Scripts.Window
         private Toggle _toggleRoundDownCollider;
         private Toggle _toggleIgnoreSanityChecks;
         private TextField _textFieldFileName;
+        private TextField _textFieldFolderPath;
         
         private Toggle _togglePrintDebugSettings;
         
@@ -129,6 +130,8 @@ namespace Prog2JsonExporter.Scripts.Window
             );
             container.Add(_togglePrintDebugSettings);
             
+            container.Add(CreateHeader("File Path", 5f, 5f, 12f, false));
+            container.Add(GetFilePathVisualElement());
             
             return container;
         }
@@ -206,7 +209,37 @@ namespace Prog2JsonExporter.Scripts.Window
 
             return toggle;
         }
-        
+
+        public VisualElement GetFilePathVisualElement()
+        {
+            VisualElement container = new VisualElement();
+            
+            Button buttonSelectTargetFolder = new Button(SelectTargetFolder)
+            {
+                text = "Select Target Folder",
+                tooltip = "Select a folder where you want the JSON file to be saved"
+            };
+            
+            container.Add(buttonSelectTargetFolder);
+
+            Prog2JsonExportSettingsContext settingsContext = Prog2JsonExportSettings.instance.SettingsContext;
+
+            String filePath = "JsonFiles";
+            
+            if (settingsContext.HasCustomFilePath)
+            {
+                filePath = settingsContext.FilePath;
+            }
+            
+            _textFieldFolderPath = new TextField()
+            {
+                value = filePath,
+                isReadOnly = true
+            };
+            
+            container.Add(_textFieldFolderPath);
+            return container;
+        }
         
         private void InitRoot()
         {
@@ -240,12 +273,28 @@ namespace Prog2JsonExporter.Scripts.Window
             return container;
         }
 
+        private void SelectTargetFolder()
+        {
+            string path = EditorUtility.OpenFolderPanel(
+                "Select Folder to Save JSON", "", ""
+            );
+
+            Prog2JsonExportSettingsContext exportSettingsContext = Prog2JsonExportSettings.instance.SettingsContext;
+            
+            exportSettingsContext.FilePath = path;
+            
+            RefreshUIField(exportSettingsContext);
+        }
+        
         private void LoadDefaultSettings()
         {
             Prog2JsonExportSettings jsonExportSettings = Prog2JsonExportSettings.instance;
-            Prog2JsonExportSettingsContext exportSettingsContext = Prog2JsonExportSettings.instance.SettingsContext;
+            
             jsonExportSettings.ResetToDefault();
             jsonExportSettings.SaveSettings();
+            
+            Prog2JsonExportSettingsContext exportSettingsContext = Prog2JsonExportSettings.instance.SettingsContext;
+            
             RefreshUIField(exportSettingsContext);
         }
 
@@ -258,6 +307,15 @@ namespace Prog2JsonExporter.Scripts.Window
             _textFieldFileName.value = exportSettingsContext.JsonFileName;
             _toggleRoundDownCollider.value = exportSettingsContext.ShouldRoundDownColliders;
             _togglePrintDebugSettings.value = exportSettingsContext.ShouldPrintObjectInfoInConsole;
+            
+            if (exportSettingsContext.HasCustomFilePath)
+            {
+                _textFieldFolderPath.value = exportSettingsContext.FilePath;
+            }
+            else
+            {
+                _textFieldFolderPath.value = Prog2JsonExportSettingsContext.DefaultFolder;
+            }
         }
         
     }
