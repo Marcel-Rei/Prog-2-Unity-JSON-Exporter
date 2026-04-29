@@ -16,7 +16,10 @@ namespace Prog2JsonExporter.Scripts.Data
         public float yPosition;
         
         public Prog2Rectf prog2Rectf;
+        public Prog2Polygon prog2Polygon;
         public bool? isTrigger;
+        public bool isFlipped;
+        public Prog2Vector2 scale;
         
         public Prog2CustomData[] customObjectData;
     }
@@ -37,6 +40,7 @@ namespace Prog2JsonExporter.Scripts.Data
     {
         [CanBeNull] public string sceneName;
         public Prog2ObjectData[] prog2GameObjects;
+        [CanBeNull] public Prog2EnvironmentSceneInfo environmentSceneInfo;
     }
     
     [System.Serializable]
@@ -49,5 +53,14 @@ namespace Prog2JsonExporter.Scripts.Data
     public class Prog2SingleSceneExporter
     {
         public Prog2SceneExportData[] objects;
+    }
+    
+    [System.Serializable]
+    public class Prog2EnvironmentSceneInfo
+    {
+        public float spawnPointX;
+        public float spawnPointY;
+        public float cameraBoundsLeft;
+        public float cameraBoundsRight;
     }
 }

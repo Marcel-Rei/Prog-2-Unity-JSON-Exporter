@@ -4,6 +4,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using Prog2JsonExporter.Scripts.Data;
 using Prog2JsonExporter.Scripts.Sanity;
+using Prog2JsonExporter.Scripts.SceneData;
 using Prog2JsonExporter.Scripts.SceneEditor;
 using Prog2JsonExporter.Scripts.Settings;
 using UnityEditor;
@@ -47,14 +48,7 @@ namespace Prog2JsonExporter.Scripts.Json
             _prog2MultiSceneExportDataWrapper = new Prog2ExportDataWrapper();
             _prog2SceneExportData = new List<Prog2SceneExportData>();
             
-            if (settingsContext.ShouldExportSceneInfo)
-            {
-                AddMultiSceneDataToWrapper(settingsContext);
-            }
-            else
-            {
-                AddSingleSceneDataToWrapper(settingsContext);
-            }
+            AddMultiSceneDataToWrapper(settingsContext);
             
             if (settingsContext.ShouldPrintObjectInfoInConsole)
             {
@@ -107,46 +101,9 @@ namespace Prog2JsonExporter.Scripts.Json
                 Formatting = Formatting.Indented
             };
             
-            if (settingsContext.ShouldExportSceneInfo)
-            {
-                return JsonConvert.SerializeObject(_prog2MultiSceneExportDataWrapper, settings);
-            }
-
-            _prog2SingleSceneExportDataWrapper = new Prog2SingleSceneExporter
-            {
-                objects = _prog2MultiSceneExportDataWrapper.scenes
-            };
-            
-            return JsonConvert.SerializeObject(_prog2SingleSceneExportDataWrapper, settings);
+            return JsonConvert.SerializeObject(_prog2MultiSceneExportDataWrapper, settings);
         }
-
-        private static void AddSingleSceneDataToWrapper(Prog2JsonExportSettingsContext settingsContext)
-        {
-            List<Prog2ObjectData> singleSceneObjectData = new List<Prog2ObjectData>();
-            
-            foreach (var sceneArray in _prog2ObjectArray)
-            {
-                if (sceneArray.Objects.Length <= 0)
-                {
-                    continue;
-                }
-                
-                
-                singleSceneObjectData.AddRange(sceneArray.Objects
-                    .Select(go => go.GetComponent<Prog2Object>().GetLevelObjectData(settingsContext)).ToArray());
-                
-                
-            }
-
-            Prog2SceneExportData singleSceneExportData = new Prog2SceneExportData
-            {
-                prog2GameObjects = singleSceneObjectData.ToArray()
-            };
-            
-            Prog2SceneExportData[] wrapper = { singleSceneExportData };
-            _prog2MultiSceneExportDataWrapper.scenes = wrapper;
-        }
-
+        
         private static void AddMultiSceneDataToWrapper(Prog2JsonExportSettingsContext settingsContext)
         {
             foreach (var sceneArray in _prog2ObjectArray)
@@ -158,6 +115,9 @@ namespace Prog2JsonExporter.Scripts.Json
                 
                 Prog2SceneExportData exportData = new Prog2SceneExportData();
                 exportData.sceneName = sceneArray.SceneName;
+                
+                exportData.environmentSceneInfo = GetEnvironmentSceneInfo(sceneArray.SceneName);
+                
                 exportData.prog2GameObjects = sceneArray.Objects
                     .Select(go => go.GetComponent<Prog2Object>().GetLevelObjectData(settingsContext)).ToArray();
                 _prog2SceneExportData.Add(exportData);
@@ -208,6 +168,36 @@ namespace Prog2JsonExporter.Scripts.Json
             }
 
             return prog2ObjectsArrays;
+        }
+
+        private static Prog2EnvironmentSceneInfo GetEnvironmentSceneInfo(string sceneName)
+        {
+            Scene scene = SceneManager.GetSceneByName(sceneName);
+            
+            if (!scene.isLoaded)
+                return null;
+
+            Prog2EnvironmentSceneInfo found = null;
+
+            foreach (GameObject root in scene.GetRootGameObjects())
+            {
+                Prog2EnvironmentInfo info = root.GetComponentInChildren<Prog2EnvironmentInfo>();
+                
+                if (info == null)
+                    continue;
+                
+                if (found != null)
+                {
+                    Debug.LogWarning(
+                        $"Multiple Prog2EnvironmentSceneInfo found in scene '{sceneName}'. Using the first one.");
+                    continue;
+                }
+
+                Debug.Log("found");
+                found = info.GetEnvironmentInfo();
+            }
+
+            return found;
         }
         
     }

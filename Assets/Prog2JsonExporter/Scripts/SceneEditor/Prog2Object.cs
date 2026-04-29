@@ -50,35 +50,59 @@ namespace Prog2JsonExporter.Scripts.SceneEditor
             Collider2D col = GetComponent<Collider2D>();
             if (col != null)
             {
-                Vector2 localBottomLeft = col.offset - (Vector2)((col.bounds.size / 2f));
-                
-                Prog2Rectf rectf = new Prog2Rectf();
-                
-                if (settingsContext.ShouldRoundDownColliders)
+                if (col is PolygonCollider2D poly)
                 {
-                    rectf.left = Mathf.FloorToInt(localBottomLeft.x);
-                    rectf.bottom = Mathf.FloorToInt(localBottomLeft.y);
-                    rectf.width = Mathf.FloorToInt(col.bounds.size.x);
-                    rectf.height = Mathf.FloorToInt(col.bounds.size.y);
-                }
-                else
-                {
-                    rectf.left = localBottomLeft.x;
-                    rectf.bottom = localBottomLeft.y;
-                    rectf.width = col.bounds.size.x;
-                    rectf.height = col.bounds.size.y;
-                }
+                    Prog2Polygon polygon = new Prog2Polygon();
+                    polygon.points = new List<Prog2Vector2>();
 
-                if (settingsContext.ShouldExportIsTriggerInfo)
-                {
-                    _prog2ObjectData.isTrigger = col.isTrigger;
+                    foreach (Vector2 point in poly.points)
+                    {
+                        Prog2Vector2 p = new Prog2Vector2();
+
+                        if (settingsContext.ShouldRoundDownColliders)
+                        {
+                            p.x = Mathf.FloorToInt(point.x);
+                            p.y = Mathf.FloorToInt(point.y);
+                        }
+
+                        polygon.points.Add(p);
+                    }
+
+                    _prog2ObjectData.prog2Polygon = polygon;
+                    _prog2ObjectData.prog2Rectf = null;
                 }
                 else
                 {
-                    _prog2ObjectData.isTrigger = null;
+                    Vector2 localBottomLeft = col.offset - (Vector2)((col.bounds.size / 2f));
+
+                    Prog2Rectf rectf = new Prog2Rectf();
+
+                    if (settingsContext.ShouldRoundDownColliders)
+                    {
+                        rectf.left = Mathf.FloorToInt(localBottomLeft.x);
+                        rectf.bottom = Mathf.FloorToInt(localBottomLeft.y);
+                        rectf.width = Mathf.FloorToInt(col.bounds.size.x);
+                        rectf.height = Mathf.FloorToInt(col.bounds.size.y);
+                    }
+                    else
+                    {
+                        rectf.left = localBottomLeft.x;
+                        rectf.bottom = localBottomLeft.y;
+                        rectf.width = col.bounds.size.x;
+                        rectf.height = col.bounds.size.y;
+                    }
+
+                    if (settingsContext.ShouldExportIsTriggerInfo)
+                    {
+                        _prog2ObjectData.isTrigger = col.isTrigger;
+                    }
+                    else
+                    {
+                        _prog2ObjectData.isTrigger = null;
+                    }
+
+                    _prog2ObjectData.prog2Rectf = rectf;
                 }
-                
-                _prog2ObjectData.prog2Rectf = rectf;
             }
             else
             {
@@ -93,7 +117,11 @@ namespace Prog2JsonExporter.Scripts.SceneEditor
             if (sprite)
             {
                 _prog2ObjectData.texturePath = GetPath(sprite.sprite);
-
+                _prog2ObjectData.scale = new Prog2Vector2();
+                _prog2ObjectData.scale.x = transform.localScale.x;
+                _prog2ObjectData.scale.y = transform.localScale.y;
+                _prog2ObjectData.isFlipped = sprite.flipX;
+                
                 if (settingsContext.ShouldExportRenderLayer)
                 {
                     _prog2ObjectData.renderLayer = sprite.sortingOrder;

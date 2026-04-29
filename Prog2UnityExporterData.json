@@ -35,7 +35,7 @@
           "yPosition": 41.0
         },
         {
-          "xPosition": 611.3,
+          "xPosition": 526.2,
           "yPosition": 24.7,
           "prog2Rectf": {
             "left": 0.0,
@@ -50,8 +50,8 @@
         {
           "texturePath": "T_No_Texture_Assigned.png",
           "renderLayer": 5,
-          "xPosition": 247.6,
-          "yPosition": -47.5,
+          "xPosition": 248.4,
+          "yPosition": -42.5,
           "prog2Rectf": {
             "left": 0.0,
             "bottom": 0.0,
@@ -59,59 +59,13 @@
             "height": 128.0
           },
           "isTrigger": false
-        },
-        {
-          "texturePath": "T_No_Texture_Assigned.png",
-          "renderLayer": 5,
-          "xPosition": -129.5,
-          "yPosition": -47.5,
-          "prog2Rectf": {
-            "left": 0.0,
-            "bottom": 0.0,
-            "width": 128.0,
-            "height": 128.0
-          },
-          "isTrigger": false
-        },
-        {
-          "texturePath": "T_No_Texture_Assigned.png",
-          "renderLayer": 5,
-          "xPosition": 247.6,
-          "yPosition": 193.0,
-          "prog2Rectf": {
-            "left": 0.0,
-            "bottom": 0.0,
-            "width": 128.0,
-            "height": 128.0
-          },
-          "isTrigger": false
-        },
-        {
-          "xPosition": 391.5,
-          "yPosition": 61.3,
-          "prog2Polygon": {
-            "points": [
-              {
-                "x": 133.0,
-                "y": -36.0
-              },
-              {
-                "x": -20.0,
-                "y": -38.0
-              },
-              {
-                "x": -16.0,
-                "y": 19.0
-              }
-            ]
-          }
         }
       ],
       "environmentSceneInfo": {
-        "spawnPointX": 10.9,
-        "spawnPointY": 185.4,
-        "cameraBoundsLeft": -136.6,
-        "cameraBoundsRight": 730.9
+        "spawnPointX": 0.0,
+        "spawnPointY": 0.0,
+        "cameraBoundsLeft": 1.0,
+        "cameraBoundsRight": 2.0
       }
     },
     {
@@ -120,7 +74,7 @@
         {
           "texturePath": "Layer 6.png",
           "renderLayer": 6,
-          "xPosition": 705.0,
+          "xPosition": -0.8,
           "yPosition": 27.8000031,
           "prog2Rectf": {
             "left": 0.0,
@@ -133,14 +87,14 @@
         {
           "texturePath": "Layer 4.png",
           "renderLayer": 0,
-          "xPosition": 764.0,
+          "xPosition": 58.2000122,
           "yPosition": 25.0
         },
         {
-          "xPosition": 1232.1,
+          "xPosition": 18.8,
           "yPosition": 24.7,
           "prog2Rectf": {
-            "left": 0.0,
+            "left": -1.0,
             "bottom": 0.0,
             "width": 48.0,
             "height": 128.0
@@ -148,13 +102,19 @@
           "isTrigger": true,
           "unloadScene": "S_Env_BrotherHood_02",
           "leadsToScene": "S_Env_BrotherHood_01"
+        },
+        {
+          "xPosition": 526.2,
+          "yPosition": 24.7,
+          "leftCameraBounds": 57.9000244,
+          "rightCameraBounds": 840.2
         }
       ],
       "environmentSceneInfo": {
-        "spawnPointX": 725.5,
-        "spawnPointY": 233.5,
-        "cameraBoundsLeft": 681.0,
-        "cameraBoundsRight": 1396.6001
+        "spawnPointX": 0.0,
+        "spawnPointY": 0.0,
+        "cameraBoundsLeft": 1.0,
+        "cameraBoundsRight": 2.0
       }
     }
   ]
