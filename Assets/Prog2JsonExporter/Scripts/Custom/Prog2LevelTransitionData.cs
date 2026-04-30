@@ -9,5 +9,6 @@ namespace Prog2JsonExporter.Scripts.Example
     {
         [HideInInspector] public string unloadScene;
         [HideInInspector] public string leadsToScene;
+        [HideInInspector] public bool leadsToStart;
     }
 }

@@ -10,10 +10,12 @@ namespace Prog2JsonExporter.Scripts.Example
         [SerializeField] private Prog2LevelTransitionData data;
         [SerializeField] private SceneAsset unloadScene;
         [SerializeField] private SceneAsset loadScene;
+        [SerializeField] private bool leadsToStart;
         public override Prog2CustomData GetCustomData()
         {
             data.leadsToScene = loadScene.name;
             data.unloadScene = unloadScene.name;
+            data.leadsToStart = leadsToStart;
             return data;
         }
         

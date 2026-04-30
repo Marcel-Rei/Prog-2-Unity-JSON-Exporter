@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 02cc3cc9802252e4c9dfffc2cf463d76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7547478826312851360
+    second: brotherhood_breakable_statue_destroyed_0
+  - first:
+      213: 5754422339811538557
+    second: brotherhood_breakable_statue_destroyed_1
+  - first:
+      213: 4394814457300817871
+    second: brotherhood_breakable_statue_destroyed_2
+  - first:
+      213: -7999470478111026567
+    second: brotherhood_breakable_statue_destroyed_3
+  - first:
+      213: -803773019840472688
+    second: brotherhood_breakable_statue_destroyed_4
+  - first:
+      213: 5077524457535412725
+    second: brotherhood_breakable_statue_destroyed_5
+  - first:
+      213: 3047059890591798766
+    second: brotherhood_breakable_statue_destroyed_6
+  - first:
+      213: -6615670881169033257
+    second: brotherhood_breakable_statue_destroyed_7
+  - first:
+      213: 2546011165728024893
+    second: brotherhood_breakable_statue_destroyed_8
+  - first:
+      213: 2634379617664558497
+    second: brotherhood_breakable_statue_destroyed_9
+  - first:
+      213: 7248794110554572121
+    second: brotherhood_breakable_statue_destroyed_10
+  - first:
+      213: -5065285282004240632
+    second: brotherhood_breakable_statue_destroyed_11
+  - first:
+      213: -5025384931150629728
+    second: brotherhood_breakable_statue_destroyed_12
+  - first:
+      213: 1885170640408262403
+    second: brotherhood_breakable_statue_destroyed_13
+  - first:
+      213: -7571229415136339328
+    second: brotherhood_breakable_statue_destroyed_14
+  - first:
+      213: -5913510646069506245
+    second: brotherhood_breakable_statue_destroyed_15
+  - first:
+      213: -7497112486590941064
+    second: brotherhood_breakable_statue_destroyed_16
+  - first:
+      213: -2143912862788344697
+    second: brotherhood_breakable_statue_destroyed_17
+  - first:
+      213: 155904557630607306
+    second: brotherhood_breakable_statue_destroyed_18
+  - first:
+      213: -667898749560786898
+    second: brotherhood_breakable_statue_destroyed_19
+  - first:
+      213: -4861242560686344208
+    second: brotherhood_breakable_statue_destroyed_20
+  - first:
+      213: 849647639859291428
+    second: brotherhood_breakable_statue_destroyed_21
+  - first:
+      213: -5967023925380126409
+    second: brotherhood_breakable_statue_destroyed_22
+  - first:
+      213: -9058337255592184112
+    second: brotherhood_breakable_statue_destroyed_23
+  - first:
+      213: -8491447355202044988
+    second: brotherhood_breakable_statue_destroyed_24
+  - first:
+      213: 5256468126643014173
+    second: brotherhood_breakable_statue_destroyed_25
+  - first:
+      213: 3639556602296249635
+    second: brotherhood_breakable_statue_destroyed_26
+  - first:
+      213: -1879628040027919473
+    second: brotherhood_breakable_statue_destroyed_27
+  - first:
+      213: -8900735139560911936
+    second: brotherhood_breakable_statue_destroyed_28
+  - first:
+      213: -1554204781429872008
+    second: brotherhood_breakable_statue_destroyed_29
+  - first:
+      213: 9202780525137361711
+    second: brotherhood_breakable_statue_destroyed_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 6
+  spritePivot: {x: 0, y: 0}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 43
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06027d7eef7f14790800000000000000
+      internalID: -7547478826312851360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 182
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76f90c31a0dbdf40800000000000000
+      internalID: 5754422339811538557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 165
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc79a25d6748dfc30800000000000000
+      internalID: 4394814457300817871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 173
+        width: 34
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972d7f0bbfb2cf090800000000000000
+      internalID: -7999470478111026567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 177
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0999d5072bc68d4f0800000000000000
+      internalID: -803773019840472688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 83
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f991cd979df67640800000000000000
+      internalID: 5077524457535412725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 85
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5901493d4594a20800000000000000
+      internalID: 3047059890591798766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 85
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d73609826a6034a0800000000000000
+      internalID: -6615670881169033257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 87
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39a5677aaf355320800000000000000
+      internalID: 2546011165728024893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5ec620e423f8420800000000000000
+      internalID: 2634379617664558497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 57
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9558c8976d3e89460800000000000000
+      internalID: 7248794110554572121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 35
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8077f108fdd74b9b0800000000000000
+      internalID: -5065285282004240632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 55
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a47a2fd70f324ab0800000000000000
+      internalID: -5025384931150629728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 19
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307b78a95b8792a10800000000000000
+      internalID: 1885170640408262403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 46
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a5fc506f69de690800000000000000
+      internalID: -7571229415136339328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f4985066dfeeda0800000000000000
+      internalID: -5913510646069506245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_16
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 16
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878f9933ae7e4f790800000000000000
+      internalID: -7497112486590941064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 26
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7842c183c9a4f32e0800000000000000
+      internalID: -2143912862788344697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 19
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfcf608e52e92200800000000000000
+      internalID: 155904557630607306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 15
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20708e30a52bb6f0800000000000000
+      internalID: -667898749560786898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7b743a5a5698cb0800000000000000
+      internalID: -4861242560686344208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425ef0ed60e8acb00800000000000000
+      internalID: 849647639859291428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 6
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739e571ca5fd03da0800000000000000
+      internalID: -5967023925380126409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_23
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 21
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6bdb852425a4280800000000000000
+      internalID: -9058337255592184112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_24
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 9
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb704cbe91582a80800000000000000
+      internalID: -8491447355202044988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 4
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a48b549e9b2f840800000000000000
+      internalID: 5256468126643014173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_26
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dabc3527d428230800000000000000
+      internalID: 3639556602296249635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ba54c91483ae5e0800000000000000
+      internalID: -1879628040027919473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb82a67c8c3a7480800000000000000
+      internalID: -8900735139560911936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87aa8ae5cfa5e6ae0800000000000000
+      internalID: -1554204781429872008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotherhood_breakable_statue_destroyed_30
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 8
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bf1b21128d6bf70800000000000000
+      internalID: 9202780525137361711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      brotherhood_breakable_statue_destroyed_0: -7547478826312851360
+      brotherhood_breakable_statue_destroyed_1: 5754422339811538557
+      brotherhood_breakable_statue_destroyed_10: 7248794110554572121
+      brotherhood_breakable_statue_destroyed_11: -5065285282004240632
+      brotherhood_breakable_statue_destroyed_12: -5025384931150629728
+      brotherhood_breakable_statue_destroyed_13: 1885170640408262403
+      brotherhood_breakable_statue_destroyed_14: -7571229415136339328
+      brotherhood_breakable_statue_destroyed_15: -5913510646069506245
+      brotherhood_breakable_statue_destroyed_16: -7497112486590941064
+      brotherhood_breakable_statue_destroyed_17: -2143912862788344697
+      brotherhood_breakable_statue_destroyed_18: 155904557630607306
+      brotherhood_breakable_statue_destroyed_19: -667898749560786898
+      brotherhood_breakable_statue_destroyed_2: 4394814457300817871
+      brotherhood_breakable_statue_destroyed_20: -4861242560686344208
+      brotherhood_breakable_statue_destroyed_21: 849647639859291428
+      brotherhood_breakable_statue_destroyed_22: -5967023925380126409
+      brotherhood_breakable_statue_destroyed_23: -9058337255592184112
+      brotherhood_breakable_statue_destroyed_24: -8491447355202044988
+      brotherhood_breakable_statue_destroyed_25: 5256468126643014173
+      brotherhood_breakable_statue_destroyed_26: 3639556602296249635
+      brotherhood_breakable_statue_destroyed_27: -1879628040027919473
+      brotherhood_breakable_statue_destroyed_28: -8900735139560911936
+      brotherhood_breakable_statue_destroyed_29: -1554204781429872008
+      brotherhood_breakable_statue_destroyed_3: -7999470478111026567
+      brotherhood_breakable_statue_destroyed_30: 9202780525137361711
+      brotherhood_breakable_statue_destroyed_4: -803773019840472688
+      brotherhood_breakable_statue_destroyed_5: 5077524457535412725
+      brotherhood_breakable_statue_destroyed_6: 3047059890591798766
+      brotherhood_breakable_statue_destroyed_7: -6615670881169033257
+      brotherhood_breakable_statue_destroyed_8: 2546011165728024893
+      brotherhood_breakable_statue_destroyed_9: 2634379617664558497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

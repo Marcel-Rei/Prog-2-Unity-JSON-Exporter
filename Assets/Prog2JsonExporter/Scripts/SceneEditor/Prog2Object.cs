@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Prog2JsonExporter.Scripts.Data;
+using Prog2JsonExporter.Scripts.Example;
 using Prog2JsonExporter.Scripts.Settings;
 using UnityEditor;
 using UnityEngine;
@@ -19,8 +20,11 @@ namespace Prog2JsonExporter.Scripts.SceneEditor
                 yPosition = transform.position.y
             };
             
-            LoadSpriteData(settingsContext);
-            LoadColliderData(settingsContext);
+            if (GetComponent<Prog2EntityComponent>() == null)
+            {
+                LoadSpriteData(settingsContext);
+                LoadColliderData(settingsContext);
+            }
             LoadCustomData();
             
             return _prog2ObjectData;

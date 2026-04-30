@@ -9,12 +9,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1055079071854976160, guid: 3be68f9f37739db44902425041b7f2a0, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1055079071854976160, guid: 3be68f9f37739db44902425041b7f2a0, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0547583720eb4d642a35ca8ed3e6e02f, type: 3}
     - target: {fileID: 1055079071854976160, guid: 3be68f9f37739db44902425041b7f2a0, type: 3}
       propertyPath: m_SortingOrder
-      value: 16
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 2792115435553202181, guid: 3be68f9f37739db44902425041b7f2a0, type: 3}
       propertyPath: m_Name
