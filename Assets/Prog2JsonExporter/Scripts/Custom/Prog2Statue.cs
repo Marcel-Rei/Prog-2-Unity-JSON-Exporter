@@ -5,13 +5,15 @@ using UnityEngine;
 
 namespace Prog2JsonExporter.Scripts.Example
 {
-    public class Prog2EntityComponent : Prog2CustomObjectComponent
+    public class Prog2Statue : Prog2CustomObjectComponent
     {
-        [SerializeField] private Prog2EntityData data;
-       
+        private Prog2StatueData customData;
+        
         public override Prog2CustomData GetCustomData()
         {
-            return data;
+            customData = new Prog2StatueData();
+            customData.entityID = 0;
+            return customData;
         }
     }
 }

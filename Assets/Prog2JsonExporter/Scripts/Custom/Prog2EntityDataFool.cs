@@ -5,8 +5,10 @@ using UnityEngine;
 namespace Prog2JsonExporter.Scripts.Example
 {
     [Serializable]
-    public class Prog2EntityData : Prog2CustomData
+    public class Prog2EntityDataFool : Prog2CustomData
     {
         public int entityID;
+        public float leftBorder;
+        public float rightBorder;
     }
 }

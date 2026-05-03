@@ -20,7 +20,7 @@ namespace Prog2JsonExporter.Scripts.SceneEditor
                 yPosition = transform.position.y
             };
             
-            if (GetComponent<Prog2EntityComponent>() == null)
+            if (GetComponent<Prog2EntityWheelComponent>() == null)
             {
                 LoadSpriteData(settingsContext);
                 LoadColliderData(settingsContext);
