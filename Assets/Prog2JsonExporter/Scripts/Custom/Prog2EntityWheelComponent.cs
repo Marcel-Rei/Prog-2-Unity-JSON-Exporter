@@ -13,6 +13,7 @@ namespace Prog2JsonExporter.Scripts.Example
        
         public override Prog2CustomData GetCustomData()
         {
+            customData = new Prog2EntityDataWheel();
             customData.entityID = 1;
             customData.leftBorder = leftBorder.position.x;
             customData.rightBorder = rightBorder.position.x;

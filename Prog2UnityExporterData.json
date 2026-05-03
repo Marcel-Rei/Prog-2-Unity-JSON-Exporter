@@ -4,39 +4,8 @@
       "sceneName": "S_Env_BrotherHood_01",
       "prog2GameObjects": [
         {
-          "texturePath": "Layer 6.png",
-          "renderLayer": 6,
-          "xPosition": -2.59999847,
-          "yPosition": 27.8000031,
-          "prog2Rectf": {
-            "left": 0.0,
-            "bottom": -11.0,
-            "width": 639.0,
-            "height": 17.0
-          },
-          "isTrigger": false
-        },
-        {
-          "texturePath": "Layer 4.png",
-          "renderLayer": 0,
-          "xPosition": 56.4,
-          "yPosition": 25.0
-        },
-        {
-          "texturePath": "Layer 5.png",
-          "renderLayer": 1,
-          "xPosition": 63.40001,
-          "yPosition": 41.0
-        },
-        {
-          "texturePath": "Layer 5.png",
-          "renderLayer": 1,
-          "xPosition": 303.0,
-          "yPosition": 41.0
-        },
-        {
-          "xPosition": 526.2,
-          "yPosition": 24.7,
+          "xPosition": 1122.7,
+          "yPosition": -379.2,
           "prog2Rectf": {
             "left": 0.0,
             "bottom": 0.0,
@@ -45,77 +14,2193 @@
           },
           "isTrigger": true,
           "unloadScene": "S_Env_BrotherHood_01",
-          "leadsToScene": "S_Env_BrotherHood_02"
+          "leadsToScene": "S_Env_BrotherHood_02",
+          "leadsToStart": true
         },
         {
-          "texturePath": "T_No_Texture_Assigned.png",
+          "texturePath": "Brotherhood_background_destroyed_ruins_large.png",
+          "renderLayer": 1,
+          "xPosition": -65.0,
+          "yPosition": -236.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.25,
+            "y": 1.25
+          },
+          "parallax": 0.975
+        },
+        {
+          "texturePath": "brotherhodd_ruins_1.png",
+          "renderLayer": 2,
+          "xPosition": 696.0,
+          "yPosition": -380.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.975
+        },
+        {
+          "texturePath": "brotherhodd_ruins_1.png",
+          "renderLayer": 2,
+          "xPosition": -433.7,
+          "yPosition": -380.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.975
+        },
+        {
+          "texturePath": "brotherhodd_ruins_1.png",
+          "renderLayer": 2,
+          "xPosition": 1061.0,
+          "yPosition": -380.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.975
+        },
+        {
+          "texturePath": "Brotherhood_background_statue_large.png",
+          "renderLayer": 3,
+          "xPosition": 151.0,
+          "yPosition": -232.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.25,
+            "y": 1.25
+          },
+          "parallax": 0.975
+        },
+        {
+          "texturePath": "Brotherhood_background_bodypile_large.png",
+          "renderLayer": 4,
+          "xPosition": -199.0,
+          "yPosition": -225.9,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.94
+        },
+        {
+          "texturePath": "Brotherhood_background_bodypile_large.png",
+          "renderLayer": 4,
+          "xPosition": 48.1999969,
+          "yPosition": -225.9,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.94
+        },
+        {
+          "texturePath": "Brotherhood_background_bodypile_large.png",
+          "renderLayer": 4,
+          "xPosition": 262.0,
+          "yPosition": -410.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.94
+        },
+        {
+          "texturePath": "Brotherhood_background_bodypile_large.png",
+          "renderLayer": 4,
+          "xPosition": 323.0,
+          "yPosition": -326.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.94
+        },
+        {
+          "texturePath": "Brotherhood_background_bodypile_small.png",
+          "renderLayer": 4,
+          "xPosition": 28.7999954,
+          "yPosition": -20.6000061,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.94
+        },
+        {
+          "texturePath": "Brotherhood_background_bodypile_small.png",
+          "renderLayer": 4,
+          "xPosition": 1151.3,
+          "yPosition": -374.9,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.94
+        },
+        {
+          "texturePath": "Brotherhood_background_bodypile_small.png",
+          "renderLayer": 4,
+          "xPosition": 13.2999992,
+          "yPosition": -56.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.94
+        },
+        {
+          "texturePath": "brotherhood_background.png",
+          "renderLayer": 0,
+          "xPosition": -188.0,
+          "yPosition": -45.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 2.0,
+            "y": 2.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background.png",
+          "renderLayer": 1,
+          "xPosition": 701.0,
+          "yPosition": -45.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 1.0
+        },
+        {
+          "texturePath": "Brotherhood_background_chain_2.png",
           "renderLayer": 5,
-          "xPosition": 248.4,
-          "yPosition": -42.5,
+          "xPosition": 34.9,
+          "yPosition": 224.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          }
+        },
+        {
+          "texturePath": "Brotherhood_background_chain_3.png",
+          "renderLayer": 5,
+          "xPosition": 90.1,
+          "yPosition": 392.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          }
+        },
+        {
+          "texturePath": "Brotherhood_background_chain_1.png",
+          "renderLayer": 5,
+          "xPosition": 219.2,
+          "yPosition": 505.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          }
+        },
+        {
+          "texturePath": "Brotherhood_background_bodypile_small.png",
+          "renderLayer": 4,
+          "xPosition": 418.8,
+          "yPosition": -53.7,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 241.3,
+          "yPosition": -60.7,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 200.9,
+          "yPosition": -60.7,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 305.280029,
+          "yPosition": -60.7,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs.png",
+          "renderLayer": 9,
+          "xPosition": 359.9,
+          "yPosition": -94.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs.png",
+          "renderLayer": 9,
+          "xPosition": 210.7,
+          "yPosition": -94.1,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Stale.png",
+          "renderLayer": 5,
+          "xPosition": 495.6,
+          "yPosition": -390.2,
+          "isFlipped": true,
+          "scale": {
+            "x": 134.8,
+            "y": 100.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Stale.png",
+          "renderLayer": 5,
+          "xPosition": 505.5,
+          "yPosition": -390.2,
+          "isFlipped": true,
+          "scale": {
+            "x": 134.8,
+            "y": 100.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Stale.png",
+          "renderLayer": 5,
+          "xPosition": 620.1,
+          "yPosition": -519.3,
+          "isFlipped": true,
+          "scale": {
+            "x": 134.8,
+            "y": 100.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Stale.png",
+          "renderLayer": 5,
+          "xPosition": 828.0,
+          "yPosition": -636.9,
+          "isFlipped": true,
+          "scale": {
+            "x": 134.8,
+            "y": 100.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Stale.png",
+          "renderLayer": 5,
+          "xPosition": 1560.0,
+          "yPosition": -416.0,
+          "isFlipped": true,
+          "scale": {
+            "x": 134.8,
+            "y": 141.49
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Stale.png",
+          "renderLayer": 5,
+          "xPosition": 259.8,
+          "yPosition": -494.6,
+          "isFlipped": true,
+          "scale": {
+            "x": 134.8,
+            "y": 100.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs.png",
+          "renderLayer": 9,
+          "xPosition": 141.5,
+          "yPosition": -142.4,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs.png",
+          "renderLayer": 9,
+          "xPosition": 72.9,
+          "yPosition": -189.9,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs.png",
+          "renderLayer": 9,
+          "xPosition": 505.6,
+          "yPosition": -203.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs.png",
+          "renderLayer": 9,
+          "xPosition": 577.3,
+          "yPosition": -258.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs.png",
+          "renderLayer": 9,
+          "xPosition": 723.2,
+          "yPosition": -369.9,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs.png",
+          "renderLayer": 9,
+          "xPosition": 650.600037,
+          "yPosition": -314.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs.png",
+          "renderLayer": 9,
+          "xPosition": 432.5,
+          "yPosition": -149.4,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs_straight.png",
+          "renderLayer": 11,
+          "xPosition": 794.7,
+          "yPosition": -400.2,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_stairs_straight.png",
+          "renderLayer": 11,
+          "xPosition": 2.8,
+          "yPosition": -213.8,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 853.0533,
+          "yPosition": -401.927948,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 916.7,
+          "yPosition": -401.927948,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 980.0,
+          "yPosition": -401.927948,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 1043.5,
+          "yPosition": -401.927948,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 1101.5,
+          "yPosition": -401.927948,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_1.png",
+          "renderLayer": 7,
+          "xPosition": 201.6,
+          "yPosition": -60.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_1.png",
+          "renderLayer": 7,
+          "xPosition": 770.3,
+          "yPosition": -388.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_1.png",
+          "renderLayer": 7,
+          "xPosition": 914.8,
+          "yPosition": -393.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_1.png",
+          "renderLayer": 7,
+          "xPosition": 399.5,
+          "yPosition": -189.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_1.png",
+          "renderLayer": 7,
+          "xPosition": 538.2,
+          "yPosition": -304.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 8,
+          "xPosition": 323.2,
+          "yPosition": -99.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 8,
+          "xPosition": 132.7,
+          "yPosition": -192.6,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 15,
+          "xPosition": 21.0,
+          "yPosition": -200.6,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 8,
+          "xPosition": 424.1,
+          "yPosition": -172.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 8,
+          "xPosition": 250.0,
+          "yPosition": -109.8,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 8,
+          "xPosition": 129.0,
+          "yPosition": -81.8,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 8,
+          "xPosition": 545.5,
+          "yPosition": -273.8,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 8,
+          "xPosition": 594.2,
+          "yPosition": -329.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 8,
+          "xPosition": 662.4,
+          "yPosition": -344.7,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 8,
+          "xPosition": 506.7,
+          "yPosition": -236.4,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_3.png",
+          "renderLayer": 8,
+          "xPosition": 447.9,
+          "yPosition": -132.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_3.png",
+          "renderLayer": 8,
+          "xPosition": 538.5,
+          "yPosition": -199.4,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_3.png",
+          "renderLayer": 8,
+          "xPosition": 644.3,
+          "yPosition": -282.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_3.png",
+          "renderLayer": 8,
+          "xPosition": 37.9,
+          "yPosition": -136.2,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_3.png",
+          "renderLayer": 8,
+          "xPosition": 598.6,
+          "yPosition": -230.2,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_3.png",
+          "renderLayer": 8,
+          "xPosition": 757.4,
+          "yPosition": -374.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 337.7,
+          "yPosition": -96.4,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 409.1,
+          "yPosition": -142.7,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 152.6,
+          "yPosition": -141.4,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 126.9,
+          "yPosition": -160.0,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 78.1,
+          "yPosition": -187.1,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 103.6,
+          "yPosition": -120.2,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 135.3,
+          "yPosition": -103.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 432.6,
+          "yPosition": -159.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 481.8,
+          "yPosition": -193.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 159.6,
+          "yPosition": -82.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 606.6,
+          "yPosition": -304.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 628.3,
+          "yPosition": -302.2,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 592.8,
+          "yPosition": -276.9,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 1028.0,
+          "yPosition": -429.7,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 556.8,
+          "yPosition": -249.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 525.1,
+          "yPosition": -217.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 688.7,
+          "yPosition": -358.7,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 800.3,
+          "yPosition": -369.8,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 741.7,
+          "yPosition": -330.5,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 654.2,
+          "yPosition": -363.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_1.png",
+          "renderLayer": 60,
+          "xPosition": 765.2,
+          "yPosition": -396.9,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_2.png",
+          "renderLayer": 60,
+          "xPosition": 794.1,
+          "yPosition": -439.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_2.png",
+          "renderLayer": 60,
+          "xPosition": 192.5,
+          "yPosition": -86.4,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_2.png",
+          "renderLayer": 60,
+          "xPosition": 31.8,
+          "yPosition": -224.2,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 385.3,
+          "yPosition": -186.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 304.7,
+          "yPosition": -105.2,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 135.0,
+          "yPosition": -95.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 210.8,
+          "yPosition": -95.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 113.9,
+          "yPosition": -130.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 204.6,
+          "yPosition": -174.7,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 152.5,
+          "yPosition": -199.4,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 64.1,
+          "yPosition": -226.5,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 325.2,
+          "yPosition": -152.4,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 576.6,
+          "yPosition": -340.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 647.0,
+          "yPosition": -383.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_2.png",
+          "renderLayer": 70,
+          "xPosition": 463.9,
+          "yPosition": -239.4,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_2.png",
+          "renderLayer": 70,
+          "xPosition": 524.1,
+          "yPosition": -306.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_back_1.png",
+          "renderLayer": 5,
+          "xPosition": 173.4,
+          "yPosition": -59.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_back_2.png",
+          "renderLayer": 5,
+          "xPosition": 339.5,
+          "yPosition": -93.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_back_2.png",
+          "renderLayer": 5,
+          "xPosition": 614.0,
+          "yPosition": -296.7,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_back_2.png",
+          "renderLayer": 5,
+          "xPosition": 712.6,
+          "yPosition": -376.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_back_3.png",
+          "renderLayer": 5,
+          "xPosition": 556.1,
+          "yPosition": -173.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_portal_ruin.png",
+          "renderLayer": 15,
+          "xPosition": 1095.7,
+          "yPosition": -376.2,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_portal_wall.png",
+          "renderLayer": 150,
+          "xPosition": 1107.5,
+          "yPosition": -415.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_small_wall_noending.png",
+          "renderLayer": 16,
+          "xPosition": 1107.5,
+          "yPosition": -178.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_small_wall_noending.png",
+          "renderLayer": 16,
+          "xPosition": 1107.5,
+          "yPosition": -117.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_small_wall.png",
+          "renderLayer": 16,
+          "xPosition": 1107.5,
+          "yPosition": -56.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "xPosition": 305.2,
+          "yPosition": -95.3,
           "prog2Rectf": {
-            "left": 0.0,
-            "bottom": 0.0,
-            "width": 128.0,
-            "height": 128.0
+            "left": -98.0,
+            "bottom": 45.0,
+            "width": 163.0,
+            "height": 15.0
           },
           "isTrigger": false
+        },
+        {
+          "xPosition": 16.4,
+          "yPosition": -235.2,
+          "prog2Rectf": {
+            "left": -114.0,
+            "bottom": 45.0,
+            "width": 179.0,
+            "height": 15.0
+          },
+          "isTrigger": false
+        },
+        {
+          "xPosition": 16.4,
+          "yPosition": -235.2,
+          "prog2Rectf": {
+            "left": -114.0,
+            "bottom": 45.0,
+            "width": 31.0,
+            "height": 335.0
+          },
+          "isTrigger": false
+        },
+        {
+          "xPosition": 862.5,
+          "yPosition": -431.4,
+          "prog2Rectf": {
+            "left": -66.0,
+            "bottom": 37.0,
+            "width": 387.0,
+            "height": 17.0
+          },
+          "isTrigger": false
+        },
+        {
+          "xPosition": 862.5,
+          "yPosition": -431.4,
+          "prog2Rectf": {
+            "left": 272.0,
+            "bottom": 37.0,
+            "width": 48.0,
+            "height": 358.0
+          },
+          "isTrigger": false
+        },
+        {
+          "xPosition": 305.2,
+          "yPosition": -95.3,
+          "prog2Polygon": {
+            "points": [
+              {
+                "x": 494.0,
+                "y": -284.0
+              },
+              {
+                "x": 65.0,
+                "y": 60.0
+              },
+              {
+                "x": 28.0,
+                "y": 58.0
+              },
+              {
+                "x": 45.0,
+                "y": -280.0
+              }
+            ]
+          }
+        },
+        {
+          "xPosition": 305.2,
+          "yPosition": -95.3,
+          "prog2Polygon": {
+            "points": [
+              {
+                "x": 479.0,
+                "y": -280.0
+              },
+              {
+                "x": 66.0,
+                "y": 52.0
+              },
+              {
+                "x": 34.0,
+                "y": 50.0
+              },
+              {
+                "x": 49.0,
+                "y": -275.0
+              }
+            ]
+          }
+        },
+        {
+          "xPosition": -216.799988,
+          "yPosition": -95.3,
+          "prog2Polygon": {
+            "points": [
+              {
+                "x": 449.0,
+                "y": -149.0
+              },
+              {
+                "x": 442.0,
+                "y": 60.0
+              },
+              {
+                "x": 423.0,
+                "y": 60.0
+              },
+              {
+                "x": 214.0,
+                "y": -90.0
+              },
+              {
+                "x": 209.0,
+                "y": -148.0
+              }
+            ]
+          }
+        },
+        {
+          "xPosition": -216.799988,
+          "yPosition": -95.3,
+          "prog2Polygon": {
+            "points": [
+              {
+                "x": 444.0,
+                "y": -145.0
+              },
+              {
+                "x": 439.0,
+                "y": 58.0
+              },
+              {
+                "x": 425.0,
+                "y": 57.0
+              },
+              {
+                "x": 219.0,
+                "y": -93.0
+              },
+              {
+                "x": 215.0,
+                "y": -145.0
+              }
+            ]
+          }
         }
       ],
       "environmentSceneInfo": {
-        "spawnPointX": 0.0,
-        "spawnPointY": 0.0,
-        "cameraBoundsLeft": 1.0,
-        "cameraBoundsRight": 2.0
+        "startSpawnPoint": {
+          "x": 284.6,
+          "y": 12.5
+        },
+        "endSpawnPoint": {
+          "x": 1072.2,
+          "y": -332.0
+        },
+        "cameraBoundsLeft": -118.0,
+        "cameraBoundsRight": 1185.3
       }
     },
     {
       "sceneName": "S_Env_BrotherHood_02",
       "prog2GameObjects": [
         {
-          "texturePath": "Layer 6.png",
-          "renderLayer": 6,
-          "xPosition": -0.8,
-          "yPosition": 27.8000031,
+          "xPosition": 1801.1,
+          "yPosition": -393.3,
           "prog2Rectf": {
             "left": 0.0,
-            "bottom": -11.0,
-            "width": 639.0,
-            "height": 17.0
-          },
-          "isTrigger": false
-        },
-        {
-          "texturePath": "Layer 4.png",
-          "renderLayer": 0,
-          "xPosition": 58.2000122,
-          "yPosition": 25.0
-        },
-        {
-          "xPosition": 18.8,
-          "yPosition": 24.7,
-          "prog2Rectf": {
-            "left": -1.0,
             "bottom": 0.0,
             "width": 48.0,
             "height": 128.0
           },
           "isTrigger": true,
           "unloadScene": "S_Env_BrotherHood_02",
-          "leadsToScene": "S_Env_BrotherHood_01"
+          "leadsToScene": "S_Env_BrotherHood_01",
+          "leadsToStart": false
         },
         {
-          "xPosition": 526.2,
-          "yPosition": 24.7,
-          "leftCameraBounds": 57.9000244,
-          "rightCameraBounds": 840.2
+          "texturePath": "brotherhodd_ruins_1.png",
+          "renderLayer": 2,
+          "xPosition": 2037.0,
+          "yPosition": -767.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.975
+        },
+        {
+          "texturePath": "brotherhodd_ruins_1.png",
+          "renderLayer": 2,
+          "xPosition": 2402.0,
+          "yPosition": -767.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.975
+        },
+        {
+          "texturePath": "brotherhodd_ruins_1.png",
+          "renderLayer": 2,
+          "xPosition": 2767.0,
+          "yPosition": -767.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          },
+          "parallax": 0.975
+        },
+        {
+          "texturePath": "brotherhood_background.png",
+          "renderLayer": 1,
+          "xPosition": 2209.0,
+          "yPosition": -352.0,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.5,
+            "y": 1.5
+          }
+        },
+        {
+          "texturePath": "brotherhood_statue_single_frame.png",
+          "renderLayer": 30,
+          "xPosition": 2043.60278,
+          "yPosition": -375.6244,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "entityID": 0
+        },
+        {
+          "texturePath": "brotherhood_statue_single_frame.png",
+          "renderLayer": 30,
+          "xPosition": 2157.80273,
+          "yPosition": -375.6244,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "entityID": 0
+        },
+        {
+          "texturePath": "brotherhood_portal_ruin.png",
+          "renderLayer": 15,
+          "xPosition": 1878.99988,
+          "yPosition": -376.2,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_portal_ruin.png",
+          "renderLayer": 15,
+          "xPosition": 3195.3,
+          "yPosition": -376.2,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_portal_wall.png",
+          "renderLayer": 150,
+          "xPosition": 3207.1,
+          "yPosition": -415.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_small_wall_noending.png",
+          "renderLayer": 16,
+          "xPosition": 3207.1,
+          "yPosition": -178.5,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_small_wall_noending.png",
+          "renderLayer": 16,
+          "xPosition": 3207.1,
+          "yPosition": -117.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_small_wall.png",
+          "renderLayer": 16,
+          "xPosition": 3207.1,
+          "yPosition": -56.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_small_wall.png",
+          "renderLayer": 16,
+          "xPosition": 1866.7,
+          "yPosition": -56.3,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_small_wall_noending.png",
+          "renderLayer": 16,
+          "xPosition": 1866.7,
+          "yPosition": -117.6,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_small_wall_noending.png",
+          "renderLayer": 16,
+          "xPosition": 1866.7,
+          "yPosition": -178.5,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_portal_wall.png",
+          "renderLayer": 150,
+          "xPosition": 1866.7,
+          "yPosition": -415.3,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 1825.9,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 1888.9,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 1951.9,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2012.9,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2073.9,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2136.9,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2199.4,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2262.9,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2325.4,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2388.3,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2451.7,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2514.4,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2576.0,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2639.0,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2702.0,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2763.3,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2825.2,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2885.5,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 2947.4,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 3010.4,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 3072.9,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 3134.7,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_floor_tile_straight.png",
+          "renderLayer": 10,
+          "xPosition": 3193.8,
+          "yPosition": -404.3,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_window.png",
+          "renderLayer": 6,
+          "xPosition": 1861.2,
+          "yPosition": -377.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_no_window.png",
+          "renderLayer": 6,
+          "xPosition": 1966.2,
+          "yPosition": -377.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Pillar_small.png",
+          "renderLayer": 5,
+          "xPosition": 1863.8,
+          "yPosition": -227.4,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Pillar_large.png",
+          "renderLayer": 5,
+          "xPosition": 1880.3,
+          "yPosition": -368.599976,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_window.png",
+          "renderLayer": 6,
+          "xPosition": 2071.09985,
+          "yPosition": -377.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_window.png",
+          "renderLayer": 6,
+          "xPosition": 2280.6,
+          "yPosition": -377.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Pillar_small.png",
+          "renderLayer": 5,
+          "xPosition": 2073.7,
+          "yPosition": -227.4,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Pillar_large.png",
+          "renderLayer": 5,
+          "xPosition": 2090.2,
+          "yPosition": -368.599976,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_no_window.png",
+          "renderLayer": 6,
+          "xPosition": 2176.09985,
+          "yPosition": -377.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_no_window.png",
+          "renderLayer": 6,
+          "xPosition": 3003.4,
+          "yPosition": -377.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_window.png",
+          "renderLayer": 6,
+          "xPosition": 2898.4,
+          "yPosition": -377.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_window.png",
+          "renderLayer": 6,
+          "xPosition": 3107.90015,
+          "yPosition": -377.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_no_window.png",
+          "renderLayer": 6,
+          "xPosition": 2793.6,
+          "yPosition": -377.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_background_Stale.png",
+          "renderLayer": 5,
+          "xPosition": 3212.0,
+          "yPosition": -825.0,
+          "isFlipped": true,
+          "scale": {
+            "x": 423.6,
+            "y": 141.49
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_1.png",
+          "renderLayer": 15,
+          "xPosition": 2339.2,
+          "yPosition": -384.7,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_1.png",
+          "renderLayer": 15,
+          "xPosition": 1992.7,
+          "yPosition": -385.4,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_1.png",
+          "renderLayer": 15,
+          "xPosition": 2854.9,
+          "yPosition": -384.7,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_2.png",
+          "renderLayer": 60,
+          "xPosition": 2389.5,
+          "yPosition": -456.1,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_front_2.png",
+          "renderLayer": 60,
+          "xPosition": 2757.7,
+          "yPosition": -456.1,
+          "isFlipped": true,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_2.png",
+          "renderLayer": 15,
+          "xPosition": 2503.8,
+          "yPosition": -377.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_3.png",
+          "renderLayer": 8,
+          "xPosition": 2467.57739,
+          "yPosition": -365.46106,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_mid_3.png",
+          "renderLayer": 15,
+          "xPosition": 2279.8,
+          "yPosition": -381.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "xPosition": 1857.8,
+          "yPosition": -438.7,
+          "prog2Rectf": {
+            "left": -64.0,
+            "bottom": 28.0,
+            "width": 1480.0,
+            "height": 35.0
+          },
+          "isTrigger": false
+        },
+        {
+          "texturePath": "savepoint.png",
+          "renderLayer": 20,
+          "xPosition": 2556.8,
+          "yPosition": -377.6,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "entityID": 3
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_1.png",
+          "renderLayer": 70,
+          "xPosition": 2406.929,
+          "yPosition": -469.834717,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
+        },
+        {
+          "texturePath": "brotherhood_bodyPile_very_front_2.png",
+          "renderLayer": 70,
+          "xPosition": 2652.42261,
+          "yPosition": -478.987549,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          }
         }
       ],
       "environmentSceneInfo": {
-        "spawnPointX": 0.0,
-        "spawnPointY": 0.0,
-        "cameraBoundsLeft": 1.0,
-        "cameraBoundsRight": 2.0
+        "startSpawnPoint": {
+          "x": 1900.4,
+          "y": -343.6
+        },
+        "endSpawnPoint": {
+          "x": 3172.0,
+          "y": -330.8
+        },
+        "cameraBoundsLeft": 1789.2,
+        "cameraBoundsRight": 3287.3
       }
+    },
+    {
+      "sceneName": "S_Env_BrotherHood_02_Enemies",
+      "prog2GameObjects": [
+        {
+          "xPosition": 2335.1,
+          "yPosition": -375.6244,
+          "entityID": 1,
+          "leftBorder": 2277.0,
+          "rightBorder": 2450.8
+        },
+        {
+          "texturePath": "Fool_Idle.png",
+          "renderLayer": 30,
+          "xPosition": 2416.5,
+          "yPosition": -375.6244,
+          "isFlipped": false,
+          "scale": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "entityID": 2,
+          "leftBorder": 2358.4,
+          "rightBorder": 2532.2
+        }
+      ]
     }
   ]
 }
