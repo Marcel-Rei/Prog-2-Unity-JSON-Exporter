@@ -7,5 +7,6 @@ namespace Prog2JsonExporter.Scripts.Example
     public class Prog2SavePointData: Prog2CustomData
     {
         public int entityID = 3;
+        public Prog2Vector2 spawnPosition;
     }
 }
